@@ -3,14 +3,44 @@ html {
 }
 
 body {
-	width: calc(100% - 20px);
-	height: calc(100% - 20px);
-	margin: 10;
-    display: table;
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+	color: #676858;
+	font-weight: 300;
 }
 
-.content {
-    vertical-align: middle;
-    text-align: center;
-	display: table-cell;
+img {
+	width: 250px;
+	opacity: 0.5;
+	margin-top: 30px;
+}
+
+img:hover { 
+    opacity: 1;
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: 100;
+}
+
+.top,
+.middle {
+	margin-top: 40px;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto -30px;
+	padding: 0 0 30px;
+}
+
+#footer {
+	height: 30px;
+}
+
+.website-info {
+	margin-bottom: 20px;
 }
